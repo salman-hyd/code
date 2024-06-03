@@ -1,1 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>youtube.com clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/vidio.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img
+          class="hamburger-menu"
+          src="icons/hamburger-menu.svg"
+          alt="no photo"
+        />
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="no photo" />
+      </div>
 
+      <div class="middle-section">
+        <input class="search-bar"type="text" placeholder="search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="no photo">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- put position absolute inside position relative-->
+        <button class="voice-button">
+          <img
+            class="voice-search-icon"
+            src="icons/voice-search-icon.svg">
+            <div class="tooltip">Search With Your Voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-icon-container">
+        <img class="notifications-icon" src="icons/notifications.svg">
+        <div class="notifications-count">3</div>
+        <div class="tooltip">Notifications</div>
+       </div>
+        <img class="current-user-picture" src="intro-to-html/images.jpg">
+       </div>
+    </header>
+    
+      <nav class="sidebar">
+        <div class="sidebar-link">
+          <img src="icons/home.svg">
+          <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/explore.svg">
+          <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/subscriptions.svg">
+          <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/originals.svg">
+          <div>originals</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/youtube-music.svg">
+          <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/library.svg">
+          <div>Library</div>
+        </div>
+      </nav>
+
+
+
+
+
+<main>
+    <section class="vidio-grid">
+      <div class="vidio-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/6gTmyhRM6k0?si=gLvlMZHZkr2b2y5B"><img class="thumbnail" src="thumbnails/thumnail-7.webp" alt="no photo"></a>
+          <div class="vidio-time">4:29</div>
+        </div>
+        <div class="vidio-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-7.jpg">
+          </div>
+          <div class="vidio-info">
+            <p class="vidio-title">
+              Charlie Puth Creates an Original Beat on the Spot With a Mug and a Spoon | The Tonight Show
+            </p>
+            <p class="vidio-author">The Tonight Show</p>
+            <p class="vidio-stats">10M views · 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vidio-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/t86sKsR4pnk?si=Eb6mEwjEnsXDvZRo"><img class="thumbnail" src="thumbnails/thumbnail-2.webp"></a>
+            <div class="vidio-time">2:21</div>
+        </div>
+        <div class="vidio-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+          </div>
+        <div class="vidio-info">
+            <p class="vidio-title">
+              Iron Man - Suit Up Scene - Mark III Armor - Movie CLIP HD
+            </p>
+            <p class="vidio-author">TopMovieClips</p>
+            <p class="vidio-stats">31M views &#183; 6 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vidio-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/krsBRQbOPQ4?si=EJs5eot2A-kNa1k1"><img class="thumbnail" src="thumbnails/thumnail-3.webp"></a>
+            <div class="vidio-time">16:59</div>
+        </div>
+        <div class="vidio-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-3.jpg" />
+          </div>
+          <div class="vidio-info">
+            <p class="vidio-title">$1 vs $250,000,000 Private Island!</p>
+            <p class="vidio-author">MrBeast</p>
+            <p class="vidio-stats">36M views &#183;15 hours ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vidio-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/Oxcc-KNygHA?si=CVwFvKG4vssSPIDR"><img class="thumbnail" src="thumbnails/thumbnail-4.webp"></a>
+            <div class="vidio-time">16:33</div>
+        </div>
+        <div class="vidio-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-4.jpg" />
+          </div>
+          <div class="vidio-info">
+            <p class="vidio-title">
+              Forza Horizon 5 : RTX 4090 24GB ( 8K Maximum Settings RTX ON /
+              DLSS ON )
+            </p>
+            <p class="vidio-author">GTX 1050 Ti</p>
+            <p class="vidio-stats">8.2M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vidio-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/ekgUjyWe1Yc?si=Pa0Tk1KxTSW65oBU"><img class="thumbnail" src="thumbnails/thumbnail-5.webp"></a>
+            <div class="vidio-time">8:08</div>
+        </div>
+        <div class="vidio-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-5.jpg" />
+          </div>
+          <div class="vidio-info">
+            <p class="vidio-title">
+              World's Coolest Concept Car - Mercedes AVTR
+            </p>
+            <p class="vidio-author">Supercar Blondie</p>
+            <p class="vidio-stats">57M views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vidio-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/itYsDNr0UCw?si=OUymtGGfCvy_4VV_"><img
+            class="thumbnail" src="thumbnails/thumbnail-6.webp"></a>
+            <div class="vidio-time">39:55</div>
+        </div>
+        <div class="vidio-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-6.jpg" />
+          </div>
+          <div class="vidio-info">
+            <p class="vidio-title">THE BEST UPCOMING MOVIES 2024 (Trailers)</p>
+            <p class="vidio-author">KinoCheck.com</p>
+            <p class="vidio-stats">8.3M views &#183;1 month ago</p>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div class="vidio-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/ekgUjyWe1Yc?si=Pa0Tk1KxTSW65oBU"><img class="thumbnail" src="thumbnails/thumbnail-5.webp"></a>
+          <div class="vidio-time">8:08</div>
+      </div>
+      <div class="vidio-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-5.jpg" />
+        </div>
+        <div class="vidio-info">
+          <p class="vidio-title">
+            World's Coolest Concept Car - Mercedes AVTR
+          </p>
+          <p class="vidio-author">Supercar Blondie</p>
+          <p class="vidio-stats">57M views &#183; 2 years ago</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="vidio-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/t86sKsR4pnk?si=Eb6mEwjEnsXDvZRo"><img class="thumbnail" src="thumbnails/thumbnail-2.webp"></a>
+          <div class="vidio-time">2:21</div>
+      </div>
+      <div class="vidio-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+        </div>
+      <div class="vidio-info">
+          <p class="vidio-title">
+            Iron Man - Suit Up Scene - Mark III Armor - Movie CLIP HD
+          </p>
+          <p class="vidio-author">TopMovieClips</p>
+          <p class="vidio-stats">31M views &#183; 6 years ago</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="vidio-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/krsBRQbOPQ4?si=EJs5eot2A-kNa1k1"><img class="thumbnail" src="thumbnails/thumnail-3.webp"></a>
+          <div class="vidio-time">16:59</div>
+      </div>
+      <div class="vidio-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-3.jpg" />
+        </div>
+        <div class="vidio-info">
+          <p class="vidio-title">$1 vs $250,000,000 Private Island!</p>
+          <p class="vidio-author">MrBeast</p>
+          <p class="vidio-stats">36M views &#183;15 hours ago</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  </body>
+</html>
